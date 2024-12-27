@@ -5,7 +5,7 @@ form.addEventListener('keydown', async function (e) {
         try {
             new URL(input);
         } catch (e) {
-            input = 'https://duckduckgo.com/?q=' + encodeURIComponent(input);
+            input = 'https://www.google.com/search?q=' + encodeURIComponent(input);
         }
         window.location = await chemical.encode(input);
     }
