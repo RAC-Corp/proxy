@@ -1,0 +1,23 @@
+{
+  "name": "proxy",
+  "version": "1.0.0",
+  "description": "proxy server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RAC-Corp/proxy.git"
+  },
+  "author": "sledge_hammer, regulated",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RAC-Corp/proxy/issues"
+  },
+  "homepage": "https://github.com/RAC-Corp/proxy#readme",
+  "dependencies": {
+    "chemicaljs": "^2.6.4",
+    "express": "^4.21.2"
+  }
+}
