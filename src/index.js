@@ -1,5 +1,5 @@
 import { ChemicalServer } from "chemicaljs";
-import { express } from "express";
+import express from "express";
 
 
 const { app, listen } = new ChemicalServer({
@@ -13,18 +13,12 @@ const port = process.env.PORT || 10000;
 
 
 app.use(
-    express.static('./static', {
+    express.static('src/static', {
         index: 'index.html',
         extensions: ['html']
     })
 );
 app.serveChemical();
-
-
-app.use((res) => {
-    res.status(404);
-    res.send('404 Error');
-})
 
 
 listen(port, () => {
