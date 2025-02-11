@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<meta content="utopia" property="og:title">
+<meta content="yeah" property="og:description">
+
+<html>
+    <head>
+        <title>Redirecting</title>
+        <link rel="stylesheet" href="../styles/style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="../assets/site-icon.png">
+    </head>
+
+    <body>
+        <div class="main">
+            <h1>Redirecting you to discord.com...</h1>
+            <hr>
+            <p>If that didn't work, try <a href="https://utopia.rac-corp.net">this link</a></p>
+        </div>
+
+        <script>
+            window.onload = function() {
+                setTimeout(() => {
+                    window.location.replace('https://utopia.rac-corp.net')
+                }, 1000)
+            };
+        </script>
+    </body>
+</html>
